@@ -1,0 +1,6 @@
+00500093   // addi x1, x0, 5     ; x1 = 5
+00700113   // addi x2, x0, 7     ; x2 = 7
+002081b3   // add  x3, x1, x2    ; x3 = x1 + x2 = 12
+00302023   // sw   x3, 0x10(x0)  ; store x3 to memory[0x10]
+01002103   // lw   x4, 0x10(x0)  ; load memory[0x10] ? x4 = 12
+0000006f   // jal x0, 0          ; infinite loop
